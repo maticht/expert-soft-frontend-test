@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    min-width: 350px;
+    font-family: Raleway;
+}
+.container{
+    width: 100%;
+    background-color: #000000;
+}
+.navbar{
+    width: 100%;
+    box-shadow: .1px .1px 10px #666;
+}
+.nav__bar{
+    padding: 1%;
+    margin: 0 7%;
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    justify-content: space-between;
+}
+.head__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 7em;
+}
+.head__links{
+    margin-left: 10px;
+}
+.head__link{
+    color: #fff;
+    margin-left: 30px;
+}
+.head__link:hover{
+    color: #666666;
+    transition-duration: 0.5s;
+}
+.sing__link{
+    border: 1px solid #F2F4E8;
+    margin-right: 5px;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.sing__link:hover{
+    background-color: #666666;
+    transition-duration: 0.5s;
+}
+
+
+.CRAFTS{
+    display: flex;
+    flex-direction: column;
+}
+.CRAFTS__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.CRAFTS__text{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 8%;
+    color: #fff;
+}
+.CRAFTS__title{
+    line-height: 70px;
+    font-size: 4em;
+    margin-top: 30px;
+}
+.CRAFTS__main__text{
+    font-weight: 0;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.CRAFTS__info__btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    align-items: center;
+}
+.Basket__link{
+    font-size: 14px;
+    flex-wrap: nowrap;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 0.8em 3em;
+    margin-right: 20px;
+}
+.Basket__link:hover{
+    background-color: #666666;
+    transition-duration: 0.5s;
+}
+
+
+.PERFUME{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEE5E0;
+}
+.PERFUME__title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 8vh;
+    color: #000000;
+}
+.PERFUME__main__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.PERFUME__item{
+    width: 150px;
+    height: 200px;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: center;
+}
+.PERFUME__img__block{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.PERFUME__sale__block{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background: #A6838A;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 4px 0 0 0;
+    z-index: 2;
+}
+.PERFUME__img__item{
+    width: 150px;
+    height: 150px;
+    display: block;
+    z-index: 5;
+}
+.PERFUME__but__block{
+    position: absolute;
+    margin-top: 70px;
+    width: 150px;
+    height: 30px;
+    opacity: 0;
+    background: rgba(133, 133, 133,0.23);
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    z-index: 6;
+}
+.PERFUME__but__block:hover{
+    opacity: 100%;
+}
+.PERFUME__img__block:hover + .PERFUME__but__block{
+    transition: 0.6s;
+    opacity: 100%;
+    z-index: 7;
+}
+.PERFUME__img__item:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+.PERFUME__item__info{
+    font-family: 'Raleway';
+    text-align: center;
+    margin: 1em auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.PERFUME__item__title{
+    line-height: 15px;
+    font-size: 15px;
+    color: #000000;
+}
+.PERFUME__item__text{
+    margin-top: 1.5vh;
+    font-size: 12px;
+    color: #413936;
+}
+
+
+.RESULTS__btn__point{
+    display: flex;
+    justify-content: center;
+}
+.RESULTS__btn{
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
+    background-color: #C4A5AA;
+    color: #000000;
+}
+.RESULTS__btn:hover{
+    background-color: #A7848B;
+    transition-duration: 0.5s;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000000;
+}
+.foot__bar{
+    display: flex;
+    flex-direction: row;
+    margin: 3% 7%;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot__main__info{
+    justify-content: space-between;
+    border-top: 1px solid #ffffff;
+    margin: 0% 7%;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.foot__title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    opacity: .7;
+    margin-bottom: 30px;
+}
+.foot__text{
+    font-family: Raleway;
+    color: #fff;
+    font-size: 14px;
+    opacity: .9;
+}
+.foot__2022Dior{
+    margin: 3% 7%;
+    display: flex;
+    font-size: 13px;
+    opacity: 50%;
+    font-family: Raleway;
+    color: #fff;
+    flex-direction: row;
+}
+
+
+@media (max-width: 500px) {
+    .head__link{
+        margin-right: 40px;
+    }
+    .foot__title{
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .foot__text{
+        font-size: 10px;
+    }
+    .foot__2022Dior{
+        margin-top: 20px;
+    }
+}
