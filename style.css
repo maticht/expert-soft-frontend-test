@@ -282,3 +282,19 @@ body{
     .foot__2022Dior{
         margin-top: 20px;
     }
+}
+@media (min-width: 1000px) {
+    .PERFUME__but__block{
+        margin-top: 71px;
+    }
+}
+@media (min-width: 1300px) {
+    .PERFUME__but__block{
+        margin-top: 60px;
+    }
+}
+@media (min-width: 2000px) {
+    .PERFUME__but__block{
+        margin-top: 35px;
+    }
+}
