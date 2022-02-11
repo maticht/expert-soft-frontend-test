@@ -158,7 +158,7 @@ body{
 }
 .PERFUME__but__block{
     position: absolute;
-    margin-top: 70px;
+    margin-top: 75px;
     width: 150px;
     height: 30px;
     opacity: 0;
@@ -285,10 +285,10 @@ body{
 }
 @media (min-width: 1000px) {
     .PERFUME__but__block{
-        margin-top: 71px;
+        margin-top: 69px;
     }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1440px) {
     .PERFUME__but__block{
         margin-top: 60px;
     }
